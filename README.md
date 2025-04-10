@@ -28,14 +28,14 @@ The analysis evaluates correlations between sentiment measures and assesses thei
 ## Repository Structure
 
 Whispers of Wall Street: Predicting Stock Reactions with BoW and LLMs/
-├── src/                   # Source code
-│   ├── 1-preprocess.ipynb      # Data cleaning and preprocessing
-│   ├── 2-bow_sentiment.ipynb   # BoW-based sentiment analysis
-│   ├── 3-llm_sentiment_bert.ipynb   # LLM-based sentiment analysis using BERT models
-│   ├── 4-llm_sentiment_openai.ipynb   # LLM-based sentiment analysis using OpenAI models
-│   ├── 5-analysis.ipynb        # Correlation and prediction analysis
-│   └── 9-api_keys.ipynb        # API key to ChatGPT (Hidden)
-│   └── data.db                 # Replication database
-├── Individual Final Assignment.pdf         # Assignment
-├── Whispers of Wall Street.pdf             # Final report (~2-3 pages + Appendix)
-└── README.md                               # This file
+├── src/                             # Source code
+│   ├── 1-preprocess.ipynb           # Data cleaning and preprocessing
+│   ├── 2-bow_sentiment.ipynb        # BoW-based sentiment analysis
+│   ├── 3-llm_sentiment_bert.ipynb   # LLM-based sentiment analysis (BERT)
+│   ├── 4-llm_sentiment_openai.ipynb # LLM-based sentiment analysis (OpenAI)
+│   ├── 5-analysis.ipynb             # Correlation and prediction analysis
+│   ├── 9-api_keys.ipynb             # API key to ChatGPT (hidden)
+│   └── data.db                      # Replication database
+├── Individual Final Assignment.pdf  # Assignment
+├── Whispers of Wall Street.pdf      # Final report (~2-3 pages + appendix)
+└── README.md                        # This file

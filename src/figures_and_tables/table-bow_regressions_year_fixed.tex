@@ -1,0 +1,25 @@
+\begin{table}
+\caption{Regression results for the BoW sentiment analysis using different dictionaries and negations accounting for year-fixed effects.}
+\label{tab:bow_regressions_year_fixed}
+\begin{tabular}{lcccccc}
+\toprule
+ & lm & lm_neg & gi & gi_neg & cu & cu_neg \\
+\midrule
+Alpha & -0.008 & -0.008 & -0.007 & -0.007 & -0.009 & -0.009 \\
+Alpha t-stat & -2.491 & -2.480 & -1.841 & -1.838 & -2.960 & -2.948 \\
+Earnings Surprise & 0.011 & 0.011 & 0.011 & 0.011 & 0.011 & 0.011 \\
+Earnings Suprise t-stat & 6.961 & 6.961 & 6.977 & 6.975 & 6.961 & 6.962 \\
+Earnings Surprise^2 & -0.001 & -0.001 & -0.001 & -0.001 & -0.001 & -0.001 \\
+Earnings Suprise^2 t-stat & -2.086 & -2.084 & -2.098 & -2.095 & -2.099 & -2.099 \\
+Net Income & 0.001 & 0.001 & 0.001 & 0.001 & 0.001 & 0.001 \\
+Net Income t-stat & 1.792 & 1.791 & 1.758 & 1.757 & 1.771 & 1.773 \\
+NUMUP & -0.001 & -0.001 & -0.001 & -0.001 & -0.001 & -0.001 \\
+NUMUP t-stat & -2.649 & -2.649 & -2.624 & -2.619 & -2.624 & -2.629 \\
+NUMDOWN & 0.001 & 0.001 & 0.001 & 0.001 & 0.001 & 0.001 \\
+NUMDOWN t-stat & 2.750 & 2.752 & 2.771 & 2.773 & 2.745 & 2.748 \\
+Sentiment & 0.027 & 0.030 & -0.036 & -0.037 & -0.073 & -0.056 \\
+Sentiment t-stat & 0.468 & 0.513 & -1.147 & -1.159 & -0.855 & -0.645 \\
+R2 & 0.078 & 0.078 & 0.078 & 0.078 & 0.078 & 0.078 \\
+\bottomrule
+\end{tabular}
+\end{table}

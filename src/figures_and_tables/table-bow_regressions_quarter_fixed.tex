@@ -1,0 +1,25 @@
+\begin{table}
+\caption{Regression results for the BoW sentiment analysis using different dictionaries and negations accounting for quarter-fixed effects.}
+\label{tab:bow_regressions_quarter_fixed}
+\begin{tabular}{lcccccc}
+\toprule
+ & lm & lm_neg & gi & gi_neg & cu & cu_neg \\
+\midrule
+Alpha & -0.008 & -0.007 & -0.007 & -0.007 & -0.009 & -0.009 \\
+Alpha t-stat & -0.481 & -0.475 & -0.419 & -0.420 & -0.578 & -0.573 \\
+Earnings Surprise & 0.011 & 0.011 & 0.011 & 0.011 & 0.011 & 0.011 \\
+Earnings Suprise t-stat & 6.886 & 6.886 & 6.907 & 6.904 & 6.887 & 6.889 \\
+Earnings Surprise^2 & -0.001 & -0.001 & -0.001 & -0.001 & -0.001 & -0.001 \\
+Earnings Suprise^2 t-stat & -1.890 & -1.888 & -1.910 & -1.908 & -1.908 & -1.909 \\
+Net Income & 0.001 & 0.001 & 0.001 & 0.001 & 0.001 & 0.001 \\
+Net Income t-stat & 1.873 & 1.872 & 1.836 & 1.836 & 1.847 & 1.849 \\
+NUMUP & -0.001 & -0.001 & -0.001 & -0.001 & -0.001 & -0.001 \\
+NUMUP t-stat & -2.551 & -2.552 & -2.534 & -2.529 & -2.530 & -2.534 \\
+NUMDOWN & 0.001 & 0.001 & 0.001 & 0.001 & 0.001 & 0.001 \\
+NUMDOWN t-stat & 2.402 & 2.403 & 2.431 & 2.433 & 2.409 & 2.410 \\
+Sentiment & 0.036 & 0.039 & -0.037 & -0.038 & -0.079 & -0.061 \\
+Sentiment t-stat & 0.618 & 0.673 & -1.176 & -1.186 & -0.927 & -0.710 \\
+R2 & 0.090 & 0.090 & 0.090 & 0.090 & 0.090 & 0.090 \\
+\bottomrule
+\end{tabular}
+\end{table}

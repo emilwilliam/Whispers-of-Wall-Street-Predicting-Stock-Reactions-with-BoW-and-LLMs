@@ -1,0 +1,25 @@
+\begin{table}
+\caption{Regression results for the LLM sentiment analysis using different models and company-fixed effects.}
+\label{tab:llm_regressions_company_fixed}
+\begin{tabular}{lcccccc}
+\toprule
+ & financialbert & distilroberta & financial-roberta & openai \\
+\midrule
+Alpha & 0.014 & 0.027 & 0.014 & 0.023 \\
+Alpha t-stat & 0.716 & 1.431 & 0.820 & 0.964 \\
+Earnings Surprise & 0.011 & 0.011 & 0.011 & 0.011 \\
+Earnings Suprise t-stat & 5.845 & 5.870 & 5.850 & 5.777 \\
+Earnings Surprise^2 & -0.001 & -0.001 & -0.001 & -0.001 \\
+Earnings Suprise^2 t-stat & -1.206 & -1.246 & -1.204 & -1.139 \\
+Net Income & 0.002 & 0.002 & 0.002 & 0.002 \\
+Net Income t-stat & 1.411 & 1.383 & 1.393 & 1.407 \\
+NUMUP & -0.001 & -0.001 & -0.001 & -0.001 \\
+NUMUP t-stat & -1.602 & -1.661 & -1.656 & -1.626 \\
+NUMDOWN & 0.001 & 0.001 & 0.001 & 0.001 \\
+NUMDOWN t-stat & 2.254 & 2.208 & 2.224 & 2.225 \\
+Sentiment & -0.011 & -0.019 & -0.012 & -0.003 \\
+Sentiment t-stat & -1.367 & -2.477 & -1.749 & -1.412 \\
+R2 & 0.128 & 0.130 & 0.129 & 0.128 \\
+\bottomrule
+\end{tabular}
+\end{table}

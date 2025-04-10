@@ -1,0 +1,27 @@
+\begin{table}
+\caption{Regression results for the LLM sentiment analysis where sentiment is split.}
+\label{tab:llm_regressions_split}
+\begin{tabular}{lcccccc}
+\toprule
+ & financialbert & distilroberta & financial-roberta & openai \\
+\midrule
+Alpha & -0.009 & -0.008 & -0.009 & -0.010 \\
+Alpha t-stat & -2.294 & -2.042 & -2.277 & -2.436 \\
+Earnings Surprise & 0.011 & 0.011 & 0.011 & 0.009 \\
+Earnings Suprise t-stat & 2.664 & 2.452 & 2.717 & 1.978 \\
+Earnings Surprise^2 & -0.001 & -0.001 & -0.001 & -0.000 \\
+Earnings Suprise^2 t-stat & -1.154 & -0.960 & -1.162 & -0.557 \\
+Net Income & 0.001 & 0.001 & 0.001 & 0.001 \\
+Net Income t-stat & 1.809 & 1.789 & 1.802 & 1.783 \\
+NUMUP & -0.001 & -0.001 & -0.001 & -0.001 \\
+NUMUP t-stat & -2.891 & -2.867 & -2.889 & -2.882 \\
+NUMDOWN & 0.001 & 0.001 & 0.001 & 0.001 \\
+NUMDOWN t-stat & 2.791 & 2.812 & 2.797 & 2.800 \\
+Sentiment (E[EPS] > 0) & -0.002 & -0.001 & -0.002 & 0.000 \\
+Sentiment (E[EPS] > 0) t-stat & -0.429 & -0.434 & -0.468 & 0.240 \\
+Sentiment (E[EPS] < 0) & -0.002 & -0.003 & -0.002 & -0.001 \\
+Sentiment (E[EPS] < 0) t-stat & -0.460 & -0.815 & -0.516 & -0.815 \\
+R2 & 0.075 & 0.075 & 0.075 & 0.075 \\
+\bottomrule
+\end{tabular}
+\end{table}

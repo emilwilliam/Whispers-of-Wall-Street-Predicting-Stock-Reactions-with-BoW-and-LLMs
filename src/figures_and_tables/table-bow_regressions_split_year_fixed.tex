@@ -1,0 +1,27 @@
+\begin{table}
+\caption{Regression results for the BoW sentiment analysis using different dictionaries and negations where sentiment is split and accounting for year-fixed effects.}
+\label{tab:bow_regressions_split_year_fixed}
+\begin{tabular}{lcccccc}
+\toprule
+ & lm & lm_neg & gi & gi_neg & cu & cu_neg \\
+\midrule
+Alpha & -0.007 & -0.007 & -0.008 & -0.008 & -0.009 & -0.009 \\
+Alpha t-stat & -2.165 & -2.165 & -2.390 & -2.390 & -2.844 & -2.844 \\
+Earnings Surprise & 0.010 & 0.010 & 0.014 & 0.014 & 0.011 & 0.011 \\
+Earnings Suprise t-stat & 4.760 & 4.760 & 5.674 & 5.674 & 6.587 & 6.587 \\
+Earnings Surprise^2 & -0.001 & -0.001 & -0.001 & -0.001 & -0.001 & -0.001 \\
+Earnings Suprise^2 t-stat & -1.322 & -1.322 & -2.478 & -2.478 & -1.887 & -1.887 \\
+Net Income & 0.001 & 0.001 & 0.001 & 0.001 & 0.001 & 0.001 \\
+Net Income t-stat & 1.789 & 1.789 & 1.802 & 1.802 & 1.808 & 1.808 \\
+NUMUP & -0.001 & -0.001 & -0.001 & -0.001 & -0.001 & -0.001 \\
+NUMUP t-stat & -2.621 & -2.621 & -2.657 & -2.657 & -2.629 & -2.629 \\
+NUMDOWN & 0.001 & 0.001 & 0.001 & 0.001 & 0.001 & 0.001 \\
+NUMDOWN t-stat & 2.735 & 2.735 & 2.747 & 2.747 & 2.748 & 2.748 \\
+Sentiment (E[EPS] > 0) & 0.013 & 0.166 & -0.052 & 0.036 & -0.139 & 0.252 \\
+Sentiment (E[EPS] > 0) t-stat & 0.204 & 1.357 & -1.501 & 0.611 & -1.405 & 1.267 \\
+Sentiment (E[EPS] < 0) & 0.166 & 0.013 & 0.036 & -0.052 & 0.252 & -0.139 \\
+Sentiment (E[EPS] < 0) t-stat & 1.357 & 0.204 & 0.611 & -1.501 & 1.267 & -1.405 \\
+R2 & 0.078 & 0.078 & 0.078 & 0.078 & 0.079 & 0.079 \\
+\bottomrule
+\end{tabular}
+\end{table}
